@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Mathias's WEB101 Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+ 
+<!-- NAVBAR -->
+<nav class="navbar">
+    <h2 class="logo">Mathias</h2>
+ 
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#event">Event</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+    </ul>
+ 
+    <div class="navbar-buttons">
+        <button id="theme-button">🌙 Dark Mode</button>
+        <button id="reduce-motion-button">⚡ Reduce Motion</button>
+    </div>
+</nav>
+ 
+<!-- HEADER -->
+<header class="header scroll-reveal">
+    <div class="header-text">
+        <p class="header-label">Stanford University · Symbolic Systems</p>
+        <h1>Mathias<br>Becerra-Sanchez</h1>
+        <p class="header-sub">Human-Centered AI · Community Empowerment · Tech for Good</p>
+ 
+        <div class="header-buttons">
+            <button class="btn-primary">View Projects</button>
+            <button class="btn-secondary">Contact Me</button>
+        </div>
+    </div>
+ 
+    <img
+        class="header-photo"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd80doLgD_koS661LTD1qzP2oy1GiL_kLU4A&s"
+        alt="Mathias profile photo"
+    >
+</header>
+ 
+<!-- ABOUT -->
+<section id="about" class="section-about scroll-reveal">
+    <div class="about-grid">
+        <div class="about-text">
+            <span class="section-label">About Me</span>
+            <h2>Building tech<br>that matters</h2>
+            <p>
+                Hello! I'm Mathias, a Stanford student studying Symbolic Systems.
+                I grew up in rural Peru and I'm passionate about using technology
+                and AI to improve access to education and healthcare in underserved
+                communities.
+            </p>
+            <p>
+                My work sits at the intersection of human cognition, AI systems,
+                and social impact — asking not just what technology <em>can</em> do,
+                but what it <em>should</em> do for the people who need it most.
+            </p>
+        </div>
+ 
+        <img
+            class="about-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPXa6lg9Opwl40nUbsm-yT19R0sZME8KdmKw&s"
+            alt="Stanford campus"
+        >
+    </div>
+</section>
+ 
+<!-- EVENT SECTION -->
+<section id="event" class="section-event scroll-reveal">
+    <span class="section-label light">Upcoming Event</span>
+    <h2>Community Tech<br>&amp; AI Summit</h2>
+ 
+    <p class="event-description">
+        A prototype event focused on technology, AI, and community empowerment.
+        Bringing students, developers, and community leaders together to discuss
+        how technology can improve access to education and opportunity.
+    </p>
+ 
+    <div class="event-cards">
+        <div class="event-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJvhEm_L379WKr9D_Tp9bRc9JGqvzVzLhjg&s" alt="Tech event">
+            <div class="event-card-info">
+                <h3>Panel Discussions</h3>
+                <p>Hear from industry leaders on AI ethics, community tech, and the future of equitable access.</p>
+            </div>
+        </div>
+        <div class="event-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPXa6lg9Opwl40nUbsm-yT19R0sZME8KdmKw&s" alt="Stanford campus event">
+            <div class="event-card-info">
+                <h3>Workshop Sessions</h3>
+                <p>Hands-on sessions at Stanford covering AI tools, community organizing, and accessible design.</p>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- VIDEO -->
+<section class="section-video scroll-reveal">
+    <span class="section-label">Featured Talk</span>
+    <h2>Watch &amp; Learn</h2>
+    <div class="video-wrapper">
+        <iframe
+            width="560" height="315"
+            src="https://www.youtube.com/embed/X4oagnUm9N4"
+            title="Featured Video"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+ 
+<!-- LINKS -->
+<section id="links" class="section-links scroll-reveal">
+    <span class="section-label">Resources</span>
+    <h2>Useful Links</h2>
+    <div class="links-grid">
+        <a class="link-card" href="https://stanford.edu" target="_blank">
+            <span class="link-icon">🎓</span>
+            <div>
+                <strong>Stanford University</strong>
+                <p>Explore Stanford's programs and research</p>
+            </div>
+        </a>
+        <a class="link-card" href="https://openai.com" target="_blank">
+            <span class="link-icon">🤖</span>
+            <div>
+                <strong>OpenAI</strong>
+                <p>Latest AI research and tools</p>
+            </div>
+        </a>
+        <a class="link-card" href="https://techequity.us" target="_blank">
+            <span class="link-icon">⚖️</span>
+            <div>
+                <strong>Tech Equity</strong>
+                <p>Advocating for equitable technology access</p>
+            </div>
+        </a>
+        <a class="link-card" href="https://ai4good.org" target="_blank">
+            <span class="link-icon">🌍</span>
+            <div>
+                <strong>AI for Good</strong>
+                <p>AI solutions for the world's greatest challenges</p>
+            </div>
+        </a>
+    </div>
+</section>
+ 
+<!-- RSVP -->
+<section id="rsvp" class="section-rsvp scroll-reveal">
+    <span class="section-label">Join Us</span>
+    <h2>RSVP for the Peruvian Tech Gathering</h2>
+    <p id="rsvp-count" class="rsvp-count-badge">3 attendees registered</p>
+ 
+    <div class="rsvp-container">
+ 
+        <!-- LEFT: descriptive paragraph -->
+        <div class="rsvp-description">
+            <p>
+                Join our community tech discussion event! We're bringing together
+                students, developers, and community leaders from across the world
+                to explore how AI and technology can create equitable access to
+                education and opportunity. Fill out the form to secure your spot
+                and be added to our growing attendee list.
+            </p>
+        </div>
+ 
+        <!-- MIDDLE: RSVP form -->
+        <form id="rsvp-form">
+            <input type="text"  placeholder="Your Name"     required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text"  placeholder="Your City"     required>
+            <button class="btn-primary" type="submit">Submit RSVP</button>
+        </form>
+ 
+        <!-- RIGHT: participant list -->
+        <div class="rsvp-list-wrapper">
+            <h3 class="rsvp-list-title">Who's Coming</h3>
+            <ul id="participants">
+                <li>Ana from Peru</li>
+                <li>Jordan from California</li>
+                <li>Lee from New York</li>
+            </ul>
+        </div>
+ 
+    </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 Mathias Becerra-Sanchez · Stanford University</p>
+    <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#event">Event</a>
+        <a href="#rsvp">RSVP</a>
+    </div>
+</footer>
+ 
+<!-- RSVP SUCCESS MODAL -->
+<div id="rsvp-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-box">
+        <button id="modal-close" class="modal-close-btn" aria-label="Close">✕</button>
+        <img
+            id="modal-img"
+            class="modal-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd80doLgD_koS661LTD1qzP2oy1GiL_kLU4A&s"
+            alt="Mathias profile photo"
+        >
+        <h3 class="modal-title">You're in! 🎉</h3>
+        <p id="modal-message" class="modal-message"></p>
+        <div class="modal-timer-bar"><div id="modal-timer-fill" class="modal-timer-fill"></div></div>
+    </div>
+</div>
+ 
+<script src="script.js"></script>
+ 
+</body>
+</html>
